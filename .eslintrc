@@ -2,4 +2,26 @@
 	"root": true,
 
 	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": 0,
+		"new-cap": [2, {
+			"capIsNewExceptions": [
+				"Get",
+				"RequireObjectCoercible",
+				"ToInteger",
+				"ToObject",
+				"ToString",
+			],
+		}],
+	},
+
+	"overrides": [
+		{
+			"files": "**/*.mjs",
+			"rules": {
+				"no-restricted-exports": 0,
+			},
+		},
+	],
 }
