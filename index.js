@@ -11,14 +11,14 @@ var bound = callBind(getPolyfill());
 
 var shim = require('./shim');
 
-var boundItemShim = function item(string, index) {
+var boundShim = function at(string, index) {
 	RequireObjectCoercible(string);
 	return bound(string, index);
 };
-define(boundItemShim, {
+define(boundShim, {
 	getPolyfill: getPolyfill,
 	implementation: implementation,
 	shim: shim
 });
 
-module.exports = boundItemShim;
+module.exports = boundShim;

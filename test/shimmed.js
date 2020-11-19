@@ -12,24 +12,24 @@ var hasStrictMode = require('has-strict-mode')();
 var runTests = require('./tests');
 
 test('shimmed', function (t) {
-	t.equal(String.prototype.item.length, 1, 'String#item has a length of 1');
+	t.equal(String.prototype.at.length, 1, 'String#at has a length of 1');
 	t.test('Function name', { skip: !functionsHaveNames }, function (st) {
-		st.equal(String.prototype.item.name, 'item', 'String#item has name "item"');
+		st.equal(String.prototype.at.name, 'at', 'String#at has name "at"');
 		st.end();
 	});
 
 	t.test('enumerability', { skip: !defineProperties.supportsDescriptors }, function (et) {
-		et.equal(false, isEnumerable.call(String.prototype, 'item'), 'String#item is not enumerable');
+		et.equal(false, isEnumerable.call(String.prototype, 'at'), 'String#at is not enumerable');
 		et.end();
 	});
 
 	t.test('bad array/this value', { skip: !hasStrictMode }, function (st) {
-		st['throws'](function () { return String.prototype.item.call(undefined, 'a'); }, TypeError, 'undefined is not an object');
-		st['throws'](function () { return String.prototype.item.call(null, 'a'); }, TypeError, 'null is not an object');
+		st['throws'](function () { return String.prototype.at.call(undefined, 'a'); }, TypeError, 'undefined is not an object');
+		st['throws'](function () { return String.prototype.at.call(null, 'a'); }, TypeError, 'null is not an object');
 		st.end();
 	});
 
-	runTests(bind.call(Function.call, String.prototype.item), t);
+	runTests(bind.call(Function.call, String.prototype.at), t);
 
 	t.end();
 });

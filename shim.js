@@ -3,12 +3,12 @@
 var define = require('define-properties');
 var getPolyfill = require('./polyfill');
 
-module.exports = function shimStringPrototypeItem() {
+module.exports = function shimStringPrototypeAt() {
 	var polyfill = getPolyfill();
 	define(
 		String.prototype,
-		{ item: polyfill },
-		{ item: function () { return String.prototype.item !== polyfill; } }
+		{ at: polyfill },
+		{ at: function () { return String.prototype.at !== polyfill; } }
 	);
 	return polyfill;
 };

@@ -8,7 +8,7 @@ var callBound = require('es-abstract/helpers/callBound');
 
 var $charAt = callBound('String.prototype.charAt');
 
-module.exports = function item(index) {
+module.exports = function at(index) {
 	var O = RequireObjectCoercible(this);
 
 	var S = ToString(O);

@@ -1,15 +1,15 @@
 import callBind from 'call-bind';
 import RequireObjectCoercible from 'es-abstract/2020/RequireObjectCoercible.js';
 
-import getPolyfill from 'string.prototype.item/polyfill';
+import getPolyfill from 'string.prototype.at/polyfill';
 
 const bound = callBind(getPolyfill());
 
-export default function item(string, index) {
+export default function at(string, index) {
 	RequireObjectCoercible(string);
 	return bound(string, index);
 }
 
-export { default as getPolyfill } from 'string.prototype.item/polyfill';
-export { default as implementation } from 'string.prototype.item/implementation';
-export { default as shim } from 'string.prototype.item/shim';
+export { default as getPolyfill } from 'string.prototype.at/polyfill';
+export { default as implementation } from 'string.prototype.at/implementation';
+export { default as shim } from 'string.prototype.at/shim';
