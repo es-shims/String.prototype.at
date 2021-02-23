@@ -1,6 +1,5 @@
 # string.prototype.at <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -67,15 +66,13 @@ assert.deepEqual(arr.at(mapper), at(arr, mapper));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/string.prototype.at
-[npm-version-svg]: http://versionbadg.es/es-shims/String.prototype.at.svg
-[travis-svg]: https://travis-ci.org/es-shims/String.prototype.at.svg
-[travis-url]: https://travis-ci.org/es-shims/String.prototype.at
+[npm-version-svg]: https://versionbadg.es/es-shims/String.prototype.at.svg
 [deps-svg]: https://david-dm.org/es-shims/String.prototype.at.svg
 [deps-url]: https://david-dm.org/es-shims/String.prototype.at
 [dev-deps-svg]: https://david-dm.org/es-shims/String.prototype.at/dev-status.svg
 [dev-deps-url]: https://david-dm.org/es-shims/String.prototype.at#info=devDependencies
 [npm-badge-png]: https://nodei.co/npm/string.prototype.at.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/string.prototype.at.svg
+[license-image]: https://img.shields.io/npm/l/string.prototype.at.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/string.prototype.at.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=string.prototype.at
+[downloads-image]: https://img.shields.io/npm/dm/string.prototype.at.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=string.prototype.at
