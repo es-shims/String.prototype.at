@@ -4,7 +4,7 @@ var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
 var ToInteger = require('es-abstract/2020/ToInteger');
 var ToString = require('es-abstract/2020/ToString');
 
-var callBound = require('es-abstract/helpers/callBound');
+var callBound = require('call-bind/callBound');
 
 var $charAt = callBound('String.prototype.charAt');
 
