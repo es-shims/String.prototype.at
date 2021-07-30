@@ -1,5 +1,5 @@
 import callBind from 'call-bind';
-import RequireObjectCoercible from 'es-abstract/2020/RequireObjectCoercible.js';
+import RequireObjectCoercible from 'es-abstract/2020/RequireObjectCoercible';
 
 import getPolyfill from 'string.prototype.at/polyfill';
 
