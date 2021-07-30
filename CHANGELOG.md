@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/String.prototype.at/compare/v1.0.1...v1.0.2) - 2021-07-29
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`7707f9b`](https://github.com/es-shims/String.prototype.at/commit/7707f9b745dfcc5873b3726c6e30d753575e8795)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`646f6fb`](https://github.com/es-shims/String.prototype.at/commit/646f6fb4144519934862ad507ed4ffdcfcf83279)
+- [actions] update workflows [`2d99a6b`](https://github.com/es-shims/String.prototype.at/commit/2d99a6bf1ac170670b348297680469b6e3129054)
+- [readme] add github actions/codecov badges [`7befe48`](https://github.com/es-shims/String.prototype.at/commit/7befe486ba6595efa942c5a63524f4929087f15f)
+- [Deps] update `es-abstract` [`4de12a8`](https://github.com/es-shims/String.prototype.at/commit/4de12a833361920a2541c35ff0fd5876a5f4b5b7)
+- [Dev Deps] update `eslint`, `tape` [`04de2b9`](https://github.com/es-shims/String.prototype.at/commit/04de2b977ce77a890928a52acc6d2e9ee1c7fe75)
+- [actions] avoid failing fast [`128255c`](https://github.com/es-shims/String.prototype.at/commit/128255c47500472238698506403cbe20ef45a592)
+- [meta] use `prepublishOnly` script for npm 7+ [`dd9aad4`](https://github.com/es-shims/String.prototype.at/commit/dd9aad41fbd24a06796321c2b543f0b84cf5db1c)
+- [Deps] update `es-abstract` [`c838cac`](https://github.com/es-shims/String.prototype.at/commit/c838cac07ad0f1ac34357539fb37d5e8873b67e3)
+- [Tests] increase coverage [`efa4182`](https://github.com/es-shims/String.prototype.at/commit/efa4182397ec52bb63421d733b35b71d3bd25815)
+- [eslint] fix linting error [`2c568ac`](https://github.com/es-shims/String.prototype.at/commit/2c568ac6a8852a627f50691add8f827ba5275617)
+
 ## [v1.0.1](https://github.com/es-shims/String.prototype.at/compare/v1.0.0...v1.0.1) - 2021-02-22
 
 ### Commits
