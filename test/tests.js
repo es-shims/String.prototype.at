@@ -14,6 +14,9 @@ module.exports = function (at, t) {
 		st.equal(at('abc', 3), undefined);
 		st.equal(at('abc', -4), undefined);
 
+		st.equal(at('abc', Infinity), undefined);
+		st.equal(at('abc', -Infinity), undefined);
+
 		st.end();
 	});
 };
