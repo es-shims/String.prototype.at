@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/String.prototype.at/compare/v1.0.2...v1.0.3) - 2021-10-04
+
+### Commits
+
+- [Refactor] remove ESM entry points [`f69b5bd`](https://github.com/es-shims/String.prototype.at/commit/f69b5bda5c1a7afcb628b63d65f46c15ccd233b0)
+- [Tests] add cases for Infinities; increase coverage [`ac7f12c`](https://github.com/es-shims/String.prototype.at/commit/ac7f12c33802c2ebf9fd4213a0c4f7f0cc61e6fc)
+- [Deps] update `es-abstract` [`d3fa497`](https://github.com/es-shims/String.prototype.at/commit/d3fa497a9c5d060abebd48e4553fbd7dde5e7ded)
+- [Dev Deps] update `eslint`, `tape` [`51dfd69`](https://github.com/es-shims/String.prototype.at/commit/51dfd69f76be90759ae210344f5bfa06bb3110a5)
+- [Fix] ESM: ensure that imports work with es-abstract [`22b0ed5`](https://github.com/es-shims/String.prototype.at/commit/22b0ed5e8a791b2bb184b8ed840afc54436d35d6)
+- [Dev Deps] update `@ljharb/eslint-config` [`e4cd7ae`](https://github.com/es-shims/String.prototype.at/commit/e4cd7ae705ae8118490308a09e00fb1c9430f17c)
+- [Tests] add `@es-shims/api` [`eb027cf`](https://github.com/es-shims/String.prototype.at/commit/eb027cf93fff2cca6a29757991b4b0c434c11ff4)
+- [Deps] update `es-abstract` [`6e0183c`](https://github.com/es-shims/String.prototype.at/commit/6e0183c65af1ec238967f98fd7b3e935ef6a7361)
+- [actions] update workflows [`500def4`](https://github.com/es-shims/String.prototype.at/commit/500def498f02d5fc228eec9cad8ccc4837ddfbdf)
+
 ## [v1.0.2](https://github.com/es-shims/String.prototype.at/compare/v1.0.1...v1.0.2) - 2021-07-29
 
 ### Commits
