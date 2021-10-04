@@ -1,8 +1,8 @@
 'use strict';
 
-var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
-var ToInteger = require('es-abstract/2020/ToInteger');
-var ToString = require('es-abstract/2020/ToString');
+var RequireObjectCoercible = require('es-abstract/2021/RequireObjectCoercible');
+var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
+var ToString = require('es-abstract/2021/ToString');
 
 var callBound = require('call-bind/callBound');
 
@@ -15,7 +15,7 @@ module.exports = function at(index) {
 
 	var len = S.length;
 
-	var relativeIndex = ToInteger(index);
+	var relativeIndex = ToIntegerOrInfinity(index);
 
 	var k = relativeIndex >= 0 ? relativeIndex : len + relativeIndex;
 
