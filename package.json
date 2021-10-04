@@ -59,7 +59,7 @@
 	"homepage": "https://github.com/es-shims/String.prototype.at#readme",
 	"devDependencies": {
 		"@es-shims/api": "^2.2.2",
-		"@ljharb/eslint-config": "^17.6.0",
+		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
 		"eslint": "^7.32.0",
