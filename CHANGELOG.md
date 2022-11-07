@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/String.prototype.at/compare/v1.0.3...v1.0.4) - 2022-11-07
+
+### Commits
+
+- [actions] reuse common workflows [`77f1e65`](https://github.com/es-shims/String.prototype.at/commit/77f1e6531068b0c24dad4c8c3194b6d5c0a9e81d)
+- [meta] use `npmignore` to autogenerate an npmignore file [`224abd1`](https://github.com/es-shims/String.prototype.at/commit/224abd1bec25d4d874f0b057f1ec41f2a27d2785)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`14a34c5`](https://github.com/es-shims/String.prototype.at/commit/14a34c54620af909c61497938c4d633b20477b54)
+- [Deps] update `define-properties`, `es-abstract` [`1bc653c`](https://github.com/es-shims/String.prototype.at/commit/1bc653c33e600039c1cabe8386efe47947cf934f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`de13e65`](https://github.com/es-shims/String.prototype.at/commit/de13e654531fc06d60c92f6633edb788f999140e)
+- [actions] update codecov uploader [`adcc11a`](https://github.com/es-shims/String.prototype.at/commit/adcc11a166b76d5a3c5d62fc420b716588ca1683)
+- [actions] update rebase action to use reusable workflow [`5285bd1`](https://github.com/es-shims/String.prototype.at/commit/5285bd15e5822e634bfdcaf6c3fb0525a0990ed8)
+
 ## [v1.0.3](https://github.com/es-shims/String.prototype.at/compare/v1.0.2...v1.0.3) - 2021-10-04
 
 ### Commits
