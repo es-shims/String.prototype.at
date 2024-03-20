@@ -1,8 +1,8 @@
 'use strict';
 
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
-var ToIntegerOrInfinity = require('es-abstract/2023/ToIntegerOrInfinity');
-var ToString = require('es-abstract/2023/ToString');
+var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
+var ToString = require('es-abstract/2024/ToString');
 
 var callBound = require('call-bind/callBound');
 
