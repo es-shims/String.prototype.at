@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/String.prototype.at/compare/v1.0.5...v1.0.6) - 2024-03-20
+
+### Commits
+
+- [meta] remove useless ESM [`d4f18aa`](https://github.com/es-shims/String.prototype.at/commit/d4f18aad0ded0f794c84cc714d492ae57a33a6b0)
+- [actions] remove redundant finisher [`3f02639`](https://github.com/es-shims/String.prototype.at/commit/3f026394dccafdac0b0bc842dc9a97fcc9d3d2ee)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract` [`6b6024f`](https://github.com/es-shims/String.prototype.at/commit/6b6024fd84cc18464610d9ba69c6a15f11986141)
+- [Refactor] use `es-object-atoms` where possible [`ae2687e`](https://github.com/es-shims/String.prototype.at/commit/ae2687e03f9b61d576fce2ea885e87ad71598abb)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`df69ac0`](https://github.com/es-shims/String.prototype.at/commit/df69ac0cb3f97b44cd9e782229ab8e1d3a2f1124)
+- [meta] add missing `engines.node` [`e474b8b`](https://github.com/es-shims/String.prototype.at/commit/e474b8b60e8ac45cd324b47c9f0261561f749c00)
+
 ## [v1.0.5](https://github.com/es-shims/String.prototype.at/compare/v1.0.4...v1.0.5) - 2023-09-01
 
 ### Commits
